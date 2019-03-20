@@ -18,8 +18,6 @@ module Lita
         command: true,
         help: { 'double N' => 'prints N + N' }
         )
-
-       
       Lita.register_handler(self)
     end
   end
