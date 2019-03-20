@@ -19,6 +19,8 @@ Lita.configure do |config|
   # appropriate gem to the Gemfile.
   config.robot.adapter = :shell
 
+  config.adapters.shell.private_chat = true
+
   ## Example: Set options for the chosen adapter.
   # config.adapter.username = "myname"
   # config.adapter.password = "secret"

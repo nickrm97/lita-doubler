@@ -10,7 +10,8 @@ module Lita
       def respond_with_double(response)
         # Read up on the Ruby MatchData class for more options n = response.match_data.captures.first
         n = Integer(n)
-        response.reply_privately "#{n} + #{n} = #{double_number n}" end
+        response.reply_privately "#{n} + #{n} = #{double_number n}" 
+      end
 
       # Can a route just sit here? How does this work?
       route(
