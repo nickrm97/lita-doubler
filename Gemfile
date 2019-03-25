@@ -4,6 +4,7 @@ gem "lita"
 gem "lita-slack"
 
 gem "lita-doubler"
+gem "lita-jobs"
 
 # Uncomment to use the HipChat adapter
 # gem "lita-hipchat"
